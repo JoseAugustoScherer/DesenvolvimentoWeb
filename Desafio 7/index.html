@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="faicon_desafios.png" type="image/x-icon">
+    <title>Desafio Imagem Flexível</title>
+</head>
+<body>
+    <h1>
+        Imagem Flexível
+    </h1>
+    <p>
+        Aumente ou diminua seu navegador para ver a imagem em tamanhos diferentes!
+    </p>
+    <picture>
+        <source media="(max-width: 700px)" srcset="imagens/img300-p.png">
+        <source media="(max-width: 1050px)" srcset="imagens/img750-m.png">
+        <img src="Imagens/img1200-g.png" alt="Imagem">
+    </picture>
+</body>
+</html>
